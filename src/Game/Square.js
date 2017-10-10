@@ -2,7 +2,6 @@ import React from 'react';
 
 class Square extends React.Component {
     constructor(props) {
-        console.log(props);
         super(props);
         this.state = {
             value: 0,
